@@ -1,0 +1,195 @@
+body{
+    background-color: #f3f3f3;
+}
+#nav{
+    background-image: url(../img/mainbg.png);
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+.main2{
+    border-bottom: solid 0.15vw #323265;
+    width: 23vw;
+    padding-bottom: 0.7vw;
+    text-transform: uppercase;
+    font-family: "CenturyGothicRegular";
+}
+#main{
+    height: 30vw;
+    margin-top: 5vw;
+}
+#login{
+    height: 30vw;
+    width: 30vw;
+    background-color: white;
+    margin-left: 24.25vw;
+    float: left;
+}
+#infoall{
+    height: 30vw;
+    width: 20vw;
+    margin-left: 1.5vw;
+    float: left;
+}
+#info{
+    height: 22vw;
+    width: 20vw;
+    background-color: white;
+    float: left;
+}
+#info h3{
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+#warn{
+    background-color: #494994;
+    height: 3vw;
+    box-sizing: border-box;
+    padding-top: 0.9vw;
+}
+#warn p{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 0.9vw;
+}
+#warn p span{
+    font-weight: bolder;
+    font-family: "CenturyGothicRegular";
+}
+#dn{
+    width: 100%;
+}
+.dn{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    height: 2vw;
+    width: 20vw;
+    margin-bottom: 1.5vw;
+    border: none;
+    color: black;
+    font-size: 1vw;
+    font-family: "CenturyGothicRegular";
+    margin-left: 3vw;
+    text-transform: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0.25vw;
+}
+.dv{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    height: 2vw;
+    width: 20vw;
+    margin-bottom: 2vw;
+    color: black;
+    font-size: 1vw;
+    font-family: "CenturyGothicRegular";
+   text-transform: none;
+    margin-left: 3vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 0.25vw;
+}
+.su{
+    background-color: #494994;
+    border-radius: 20px;
+    height: 2.4vw;
+    width: 10vw;
+    margin-bottom: 2vw;
+    border: solid 1px black;
+    color: black;
+    font-size: 1vw;
+    font-family: "CenturyGothicRegular";
+    text-transform: uppercase;
+    box-shadow: 0px 0px 50px -7px rgba(73, 73, 148, 0.26);
+    -webkit-transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+    outline: none;
+    cursor: pointer;
+}
+.su:hover{
+    background-color: #f2f2f2; 
+    box-shadow: 0px 0px 50px -7px rgba(255,255,255,255.26);
+    -webkit-transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s; 
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+#icon{
+    box-sizing: border-box;
+    padding-top: 0.1em;
+    position: absolute;
+}
+#input{
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    height: 2.5vw;
+    width: 25vw;
+    margin-bottom: 2vw;
+    border: solid 0.01vw black;
+    color: black;
+    font-size: 1vw;
+    font-family: "CenturyGothicRegular";
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding-left: 1vw;
+}
+.dn:-ms-value {
+    text-transform: none;
+}
+#forms{
+    margin-top: 3vw;
+}
+.loginh3{
+    margin-top: 3vw;
+    font-size: 2.5vw;
+}
+#monc{
+    height: 10vw;
+    background-image: url(../img/mon.png);
+    background-size: cover;
+    width: 10vw;
+    margin-top: 1vw;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 0.25vw;
+}
+.mont{
+    font-family: "CenturyGothicRegular";
+    font-size: 3vw;
+}
+#htpsu a{
+    color: #323265;
+    font-family: "CenturyGothicRegular";
+    font-size: 1.2vw;
+    padding: 0.2vw 1vw;
+    border: solid 1px #323265;
+}
+#htpsu a:hover{
+    background-color: #e2e2e2;
+}
+#htpsu{
+    height: 1.2vw;
+    width: 12vw;
+}
+#footer{
+    background-color: #323265;
+    height: 5vw;
+    box-sizing: border-box;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    margin-top: 5vw;
+}
+#logo{
+    background-image: url(../img/maint1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3vw;
+    width: 24.5vw;
+}

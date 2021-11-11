@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h3{
+    font-family: "CenturyGothicRegular";
+    font-weight: normal;
+    font-size: 3vw;
+}
+@font-face {
+    font-family: "CenturyGothicRegular";
+    src: url("../font/CenturyGothicRegular/CenturyGothicRegular.eot");
+    src: url("../font/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix")format("embedded-opentype"),
+    url("../font/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"),
+    url("../font/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*{
+    text-decoration: none;
+    outline: none;
+    -webkit-appearance: none;
+    -webkit-transition-duration: 0.5s; 
+    -o-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s; 
+}
+ul li{
+    display: inline;
+    text-transform: uppercase;
+}
+.nava:hover{
+    border-bottom: solid 0.4vw #323265;
+    color: #e2e2e2;
+}
+.nava{
+    color: white;
+    font-size: 1.5vw;
+    margin-left: 4vw;
+    padding-bottom: 0.4vw;
+}
+.main{
+    margin-left: 15vw;
+}
+#nav{
+    height: 4vw;
+    position: absolute;
+    z-index: 999;
+}
+ul{
+    height: 2vw;
+    display: inline-block;
+    margin-top: 1vw;
+}
+.user{
+    background-color: #323265;
+    padding: 0.3vw 1vw; 
+    border-radius: 5vw;
+}
+.user:hover{
+    border: none;
+    background-color: #5656a4;
+}
+#ert{
+    background-color: lightcoral;
+    width: 10vw;
+    padding: 0.5vw 0.5vw;
+    border: solid 0.1vw darkred;
+    border-radius: 10vw;
+}

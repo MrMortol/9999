@@ -1,0 +1,109 @@
+body{
+    background-color: #f3f3f3;
+}
+#nav{
+    background-image: url(../img/mainbg.png);
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+#skin{
+    background-image: url(skins/189.png);
+    height: 7vw;
+    width: 7vw;
+    border-radius: 7vw;
+    background-repeat: no-repeat;
+    background-size: 10vw;
+    background-position: center top;
+    padding: 0.5vw;
+    border: solid 0.3vw #323265;
+    float: left;
+}
+#header{
+    margin-top: 4vw;
+    }
+#header h3{
+    font-size: 2.5vw;
+    margin-top: 2.5vw;
+    margin-left: 2vw;
+    float: left;
+}
+#header h3 span{
+    background-color: #494994;
+    border-radius: 5vw;
+    color: white;
+    padding: 0.5vw 1vw;
+}
+#headin{
+    width: 36vw;
+}
+#main{
+    background-color: white;
+    height: 32vw;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 2vw;
+    box-sizing: border-box;
+    padding-top: 0.1vw;
+}
+#main h3{
+    border-bottom: solid 0.15vw #323265;
+    width: 16vw;
+    padding-bottom: 0.5vw;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: "CenturyGothicRegular";
+}
+#info1{
+    width: 25vw;
+    float: left;
+}
+#info2{
+    width: 25vw;
+    float: left;
+}
+#name{
+    margin-bottom: 0.5vw;
+    padding-bottom: 0.2vw;
+    border-bottom: dashed 0.01vw black;
+}
+#inname{
+    margin-left: 0.5vw;
+}
+#inname span{
+    border-radius: 5vw;
+    color: limegreen;
+    font-size: 0.6vw;
+    border: solid 0.1vw limegreen;
+    padding: 0.1vw 0.2vw;
+}
+#tpsu a{
+    color: white;
+    font-family: "CenturyGothicRegular";
+    font-size: 1.2vw;
+    background-color: #494994;
+    padding: 0.3vw 1vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#tpsu a:hover{
+    background-color: #323265;
+}
+#tpsu{
+    margin-top: 1.7vw;
+    float: left;
+}
+#footer{
+    background-color: #323265;
+    height: 5vw;
+    box-sizing: border-box;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    margin-top: 5vw;
+}
+#logo{
+    background-image: url(../img/maint1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 3vw;
+    width: 24.5vw;
+}
